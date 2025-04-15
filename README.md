@@ -1,4 +1,4 @@
-# Zen Browser Mod - ZenQR
+# Zen Browser Mod - QR Zenerate
 
 A QR Code Generator Mod for Zen Browser, because I had this in Brave but it's not on Zen Browser.
 
