@@ -9,3 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   const url = "https://www.youtube.com";
+//   const qrCodeElement = document.getElementById("qrcode");
+//   new QRCode(qrCodeElement, {
+//     text: url,
+//     width: 128,
+//     height: 128,
+//   });
+// });
