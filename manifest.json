@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Zenerate QR",
+  "version": "0.1.0",
+  "description": "QR Code Generator Mod for Zen Browser",
+  "permissions": ["tabs", "activeTab"],
+  "browser_action": {
+    "default_title": "Zenerate QR Code",
+    "default_popup": "popup.html"
+  }
+}
