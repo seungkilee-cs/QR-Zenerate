@@ -3,9 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <title>Zenerate QR</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        width: 220px;
+        padding: 10px;
+      }
+      #qrcode {
+        margin: 10px auto;
+        width: 128px;
+        height: 128px;
+      }
+      input[type="url"] {
+        width: 90%;
+      }
+      button {
+        margin-top: 5px;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <!-- <h1>Zenerate QR</h1> -->
+    <label for="urlInput">Enter URL:</label>
+    <input
+      type="url"
+      id="urlInput"
+      placeholder="https://example.com"
+      required
+    />
+    <button id="generateBtn">Generate QR</button>
     <div id="qrcode"></div>
     <script src="qrcode.min.js"></script>
     <script src="popup.js"></script>
