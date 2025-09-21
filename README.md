@@ -2,10 +2,9 @@
 
 QR-Zenerate is a QR code generator mod for Zen Browser, because I had this in my prior browser, Brave but it's not on Zen Browser.
 
-![00](./screenshots/qr-zenerate_00.png)
-
-![Reg QR](./screenshots/qr_zenerate_reg.png)
-![Large QR](./screenshots/qr_zenerate_large.png)
+|                 Initial                 |                     QR Code                      |
+| :-------------------------------------: | :----------------------------------------------: |
+| ![00](./screenshots/qr-zenerate_00.png) | ![Large QR](./screenshots/qr_zenerate_large.png) |
 
 ## Features
 
@@ -16,7 +15,7 @@ QR-Zenerate is a QR code generator mod for Zen Browser, because I had this in my
 - Right-click context menu integration
 - Optimized QR code sizing for browser extension popups
 
-## Installation
+## Test Installation
 
 1. Download or clone this repository
 2. Open Zen Browser and navigate to `about:debugging`

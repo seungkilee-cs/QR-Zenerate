@@ -1,2 +1,4 @@
 _legacy/
 _exclude/
+
+.DS_Store
