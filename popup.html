@@ -1,21 +1,32 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Zenerate QR</title>
-    <style src="popup.css"></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR-Zenerate</title>
+    <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
-    <label for="urlInput">Enter URL:</label>
-    <input
-      type="url"
-      id="urlInput"
-      placeholder="https://example.com"
-      required
-    />
-    <button id="generateBtn">Generate QR</button>
-    <div id="qrcode"></div>
-    <script src="qrcode.min.js"></script>
+    <div class="container">
+      <h1>QR-Zenerate</h1>
+      <div class="url-display">
+        <label for="current-url">Current URL:</label>
+        <input type="text" id="current-url" readonly />
+      </div>
+
+      <div class="controls">
+        <button id="generate-btn">Generate QR Code</button>
+        <button id="download-btn" style="display: none">Download QR</button>
+      </div>
+
+      <div id="qr-container">
+        <div id="qr-code"></div>
+      </div>
+
+      <div class="status" id="status"></div>
+    </div>
+
+    <script src="lib/qrcode.min.js"></script>
     <script src="popup.js"></script>
   </body>
 </html>
