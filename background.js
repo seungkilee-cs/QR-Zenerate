@@ -1,8 +1,7 @@
 browser.runtime.onInstalled.addListener(() => {
-  console.log("QR Code Generator extension installed");
+  console.log("QR Zenerate extension installed");
 });
 
-// maybe add context menu item
 browser.contextMenus.create({
   id: "generate-qr",
   title: "Generate QR Code for this page",
