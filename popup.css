@@ -81,7 +81,7 @@ button {
 #qr-container {
   text-align: center;
   margin: 20px 0;
-  min-height: 150px;
+  min-height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,6 +94,8 @@ button {
 #qr-code canvas {
   border: 1px solid #ddd;
   border-radius: 4px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .status {
