@@ -1,7 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "QR Code Generator for Zen",
-  "version": "1.0",
+  "name": "QR-Zenerate",
+  "version": "0.0",
+  "16": "icons/icon-16.png",
+  "48": "icons/icon-48.png",
+  "128": "icons/icon-128.png",
   "description": "Generate QR codes for the current tab's URL",
 
   "permissions": ["activeTab", "tabs"],
